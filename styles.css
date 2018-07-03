@@ -6,13 +6,35 @@
 }
 
 table {
+	border-collapse: collapse;
+	
 	margin-left: auto;
 	margin-right: auto;
+	
 	text-align: center;
+	vertical-align: center;
+	
 	table-layout: fixed;
 	width: 75%;
 }
 
-h1 {
+table, th, td, tr {
+	border: 1px solid black;
+	
+}
+
+tr, td, th {
+	padding: 15px;
+}
+
+header {
+	display: inline-block;
+	
 	text-align: center;
+	background-color: #a8c9ff;
+	width: 75%;
+}
+
+th {
+	font-size: 20px;
 }
