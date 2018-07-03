@@ -31,6 +31,11 @@ header {
 	width: 85%;
 }
 
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
 th {
 	font-size: 20px;
 }
